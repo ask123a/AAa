@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        p{
+            margin: 25px 50px 70px;
+        }
+        /*This element has a top margin of 25px, a right and left margin of 50px, and a bottom margin of 75px.*/
+
+        div{
+            width: 600px;
+            height: 420px; 
+            padding: 50px;
+            background-color: brown;
+            border: 5px solid green;
+            margin: 0;
+        }
+        #img1{vertical-align: bottom;}
+        #img2{vertical-align: top;}
+        #img3{vertical-align: middle;}
+        #img4{vertical-align: 20px;}
+        li{
+            display:inline-block ;
+            list-style-type: none;
+            width: 200px;
+            background-color: lightblue;
+            text-align: center;
+            left: 15%;
+        }
+        h1{
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            position: 30px;
+            background-color: blue;
+        }
+        body{
+        background-image: url(612514.jpg),url(2222.jpg);
+        background-repeat: no-repeat, no-repeat ;
+        background-position: right top, right bottom ;
+        background-attachment: fixed, fixed ;
+        background-color: lightgray, lightgray ;
+        }
+        .img-float{
+            float: left;
+            margin-right: 15px;
+            width: 200px;
+            height: auto;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <h1>台南景點介紹</h1>
+        <fieldset>
+            <li><a href="1.jpg" target="_blank">四草綠色隧道</a></li>
+                <li><a href="1024x768.jfif" target="_blank">井仔腳瓦盤鹽田</a></li>
+                <li><a href="images.jfif"target="_blank">赤坎樓</a></li>
+                <li><a href="612514.jpg"target="_blank">台南孔廟</a></li>
+        </fieldset>
+        <h2>孔子全台首學</h2>
+        <div><img width="500" height="300" id="img4" src="612514.jpg" style="border: dotted;"><br>臺灣的第一座孔子廟臺南孔子廟創建於明永曆19年（1665年），當時稱為「先師聖廟」，至今已有三百多年的歷史，由島上第一個漢人改權歸氏王朝所創立，為的是在舊開辦教育，培養為國效命的人才，清領時期亦延續功能，為臺灣官辦的最高學府「臺灣府學」所在地。直到今日，孔廟依然是讀書人的聖廟，有著崇高的地位。</div><br>
+        <h2>赤坎樓</h2>
+        <div><img width="500" height="300" id="img1" src="images.jfif" style="border: double;"><br>其前身為荷治時期1625年1月闢建的 普羅民遮 市街1653年於此市街赤崁行省興建之歐式城塞，1655年完工，稱「普羅民遮城」，曾為全台灣島的商業中心，至清代已傾圮，僅留部分殘蹟。</div><br>
+        <h2>四草綠色隧道</h2>
+        <div><img width="500" height="300" id="img1" src="1.jpg" style="border-style: solid; border-width: medium;"><br>四草綠色隧道在台江國家公園內，裡面有溼地及豐富的生態資源，可以坐船遊覽田紅樹林交織成的綠色隧道，鄰居們的招攬、彈盞魚與紅樹林，體會不一樣的大自然感受。</div><br>
+        <h2>井仔腳瓦盤鹽田</h2>
+        <div><img width="500" height="300" id="img1" src="1024x768.jfif" style="border-style: solid; border-width: medium;"><br>井仔腳瓦盤鹽田是北門的第一座鹽田，西元1818年開始購鹽，因人工成本過高，在2002年停止購鹽，鹽田漸漸沉降，目前開發為觀光景點，遊客在此可體驗傳統鹽鹽、挑鹽與收鹽。</div><br>
+</body>
+</html>
